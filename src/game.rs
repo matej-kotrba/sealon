@@ -13,7 +13,6 @@ pub enum Screen {
 pub struct Game {
     pub screen: Screen,
 }
-
 impl Game {
     pub fn new() -> Self {
         Game {
