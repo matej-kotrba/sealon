@@ -1,8 +1,6 @@
 pub struct MainMenuData {}
 pub struct CampData {}
-pub struct ShopData {}
 pub struct DungeonData {}
-
 pub enum Screen {
     MainMenu(MainMenuData),
     Camp(CampData),
