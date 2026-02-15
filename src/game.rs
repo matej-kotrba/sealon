@@ -7,7 +7,6 @@ pub enum Screen {
     Shop(ShopData),
     Dungeon(DungeonData),
 }
-
 pub struct Game {
     pub screen: Screen,
 }
