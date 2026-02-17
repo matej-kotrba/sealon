@@ -53,7 +53,6 @@ impl App {
         self.exit = true;
     }
 }
-
 impl Widget for &App {
     fn render(self, area: Rect, buf: &mut Buffer) {
         let title = Line::from(" Counter App Tutorial ".bold());
