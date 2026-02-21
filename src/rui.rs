@@ -48,7 +48,6 @@ impl App {
             _ => {}
         }
     }
-
     fn exit(&mut self) {
         self.exit = true;
     }
