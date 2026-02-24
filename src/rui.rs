@@ -9,7 +9,6 @@ use ratatui::{
     DefaultTerminal, Frame,
 };
 use std::io;
-
 #[derive(Debug, Default)]
 pub struct App {
     counter: u8,
