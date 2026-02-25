@@ -14,7 +14,6 @@ pub struct App {
     counter: u8,
     exit: bool,
 }
-
 impl App {
     pub fn run(&mut self, terminal: &mut DefaultTerminal) -> io::Result<()> {
         while !self.exit {
