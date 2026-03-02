@@ -60,6 +60,7 @@ impl Widget for &App {
             " Quit ".into(),
             "<Q> ".blue().bold(),
         ]);
+
         let block = Block::bordered()
             .title(title.centered())
             .title_bottom(instructions.centered())
@@ -69,6 +70,7 @@ impl Widget for &App {
             "Value: ".into(),
             self.counter.to_string().yellow(),
         ])]);
+
         Paragraph::new(counter_text)
             .centered()
             .block(block)
